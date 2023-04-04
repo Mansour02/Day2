@@ -1,0 +1,31 @@
+Scanner s = new Scanner(System.in);
+        System.out.println("Welcome Mansour's weather center choose a number from 1-5");
+        System.out.println("1 for Sunday ");
+        System.out.println("2 for Monday ");
+        System.out.println("3 for Tuesday ");
+        System.out.println("4 for Wednesday ");
+        System.out.println("5 for Thursday ");
+        int number = s.nextInt();
+        switch (number){
+            case 1 :
+                System.out.println("it is Rainy");
+                break;
+            case 2 :
+                System.out.println("it is freezing");
+                break;
+            case 3 :
+                System.out.println("it is hot ");
+                break;
+            case 4 :
+                System.out.printf("it is Mild");
+                break;
+            case 5 :
+                System.out.println("it is windy");
+                break;
+            default:
+                System.out.println("Please enter a correct number" );
+                break;
+        }
+
+    }
+}
